@@ -1,0 +1,76 @@
+{
+	"manifestRequest": {
+		"hdr": {
+			"messageType": "SHIPMENT",
+			"messageDateTime": "2016-01-12T11:20:27+08:00",
+			"accessToken": "5dc5996ee4e4439d9ee3a4ed67fc65e7",
+			"messageVersion": "1.0",
+			"messageLanguage": "en"
+		},
+		"bd": {
+			"pickupAccountId": "5999999939",
+			"soldToAccountId": "5999999939",
+			"pickupDateTime": "2020-11-06T11:20:27+08:00",
+			"handoverMethod": 2,
+			"pickupAddress": {
+				"companyName": "ABC SDN BHD",
+				"name": "Vasan",
+				"address1": "Jalan Bukit",
+				"address2": null,
+				"address3": null,
+				"city": "Kajang",
+				"state": "Selangor",
+				"country": "MY",
+				"postCode": "43000",
+				"phone": "123456789",
+				"email": null
+			},
+			"shipmentItems": [{
+				"consigneeAddress": {
+					"companyName": "null",
+					"name": "Desiree",
+					"address1": "Jalan PPU1",
+					"address2": null,
+					"address3": null,
+					"city": "Puchong",
+					"state": "Selangor",
+					"district": null,
+					"country": "MY",
+					"postCode": "47100",
+					"phone": "01123456789",
+					"email": null
+				},
+				"returnAddress": {
+				"companyName": "ABC SDN BHD",
+				"name": "Vasan",
+				"address1": "Jalan Bukit",
+				"address2": null,
+				"address3": null,
+				"city": "Kajang",
+				"state": "Selangor",
+				"country": "MY",
+				"postCode": "43000",
+				"phone": "123456789",
+				"email": null
+			},
+				"shipmentID": "MYZZQ000999",
+				"returnMode": "03",
+				"packageDesc": "Pacakge Descs",
+				"totalWeight": 10,
+				"totalWeightUOM": "g",
+				"dimensionUOM": "CM",
+				"height": 10.00,
+				"length": 30.00,
+				"width": 20.00,
+				"productCode": "PDO",
+				"codValue": null,
+				"insuranceValue": null,
+				"totalValue": 100.0,
+				"currency": "MYR",
+				"remarks": "SHIPPERname",
+				"isRoutingInfoRequired": "Y"
+			}]
+
+		}
+	}
+}
